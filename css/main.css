@@ -1,0 +1,49 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+
+     box-sizing: border-box; /* IE */
+
+     font-family: 'Indie Flower', cursive;
+
+     list-style: none;
+
+     font-weight: bolder;
+}
+
+html{
+  background-color: #00004c;
+}
+
+#mainWrapper{
+  text-align: center;
+  height: 700px;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 50px;
+  background-color: #0000b2;
+  border: 10px solid #9999ff;
+  border-radius: 30px;
+}
+
+button {
+  background: #17547d;
+  background-image: -webkit-linear-gradient(top, #17547d, #907acf);
+  background-image: -moz-linear-gradient(top, #17547d, #907acf);
+  background-image: -ms-linear-gradient(top, #17547d, #907acf);
+  background-image: -o-linear-gradient(top, #17547d, #907acf);
+  background-image: linear-gradient(to bottom, #17547d, #907acf);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  outline: 0;
+}
+
+input{
+  width: 20%;
+}
